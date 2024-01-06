@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: FriendMS
+  cloud:
+    consul:
+      host: localhost 
+      discovery:
+        hostname: localhost
+  datasource: 
+    driverClassName: com.mysql.cj.jdbc.Driver 
+    url: jdbc:mysql://localhost/friend_db
+    username: root 
+  jpa: 
+    hibernate.ddl-auto: update
+  
+server:
+  port: 2006
+
+  
+FRIENDSHIP_EXISTS: Friendship already Exists. Please refresh.
+NO_FRIENDSHIP: Friendship doest not Exists. Please refresh.
+NO_FRIENDSHIPS: Friendships does not Exists. Please refresh.
+FRIENDSHIP_ADDED: Friend added
+
+INVALID_TOKEN: Invalid token recieved
+CATEGORY_ADDED: Category Added
+

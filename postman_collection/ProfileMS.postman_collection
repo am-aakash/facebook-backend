@@ -1,0 +1,384 @@
+{
+	"info": {
+		"_postman_id": "8b1dfe65-c85f-449d-b582-6a20a765e858",
+		"name": "Profile MS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Profile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"559e8b4a-aa03-49f9-bce9-f0b9be31ff6f\",\r\n    \"username\": \"testuser5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2004/profile/add"
+			},
+			"response": [
+				{
+					"name": "Add Profile Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"db8fedf4-cf2d-48c0-b283-b33d1d56e28b\",\r\n    \"username\": \"testuser2\",\r\n    \"bio\": \"Abcdef jkbdskjbs kjbsddjkb\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2004/profile/add"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:37:14 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Profile added with username : testuser2\"\n}"
+				},
+				{
+					"name": "Invalid Token",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"db8fedf4-cf2d-48c0-b283-b33d1d56e28b\",\r\n    \"username\": \"testuser2\",\r\n    \"bio\": \"Abcdef jkbdskjbs kjbsddjkb\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2004/profile/add"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:56:52 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorMessage\": \"Invalid token recieved\",\n    \"errorCode\": 500\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Profile",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "userId",
+						"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"02db0b8e-d772-4ab2-9e37-24684a7e5516\",\r\n    \"username\": \"testuser\",\r\n    \"bio\": \"Hi, I am a New Test User!!!\",\r\n    \"firstName\": \"Test\",\r\n    \"lastName\": \"User\",\r\n    \"emailId\": \"test1234@abc.com\",\r\n    \"dateOfBirth\": \"2000-09-26\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2004/profile/edit"
+			},
+			"response": [
+				{
+					"name": "Edit Profile Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "userId",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"02db0b8e-d772-4ab2-9e37-24684a7e5516\",\r\n    \"username\": \"testuser\",\r\n    \"bio\": \"Hi, I am a New Test User!!!\",\r\n    \"firstName\": \"Test\",\r\n    \"lastName\": \"User\",\r\n    \"emailId\": \"test1234@abc.com\",\r\n    \"dateOfBirth\": \"2000-09-26\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2004/profile/edit"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:57:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Profile By Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "93409803-6465-47e5-a99e-085b7190f520",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "93409803-6465-47e5-a99e-085b7190f520",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2004/profile/get-by-id/93409803-6465-47e5-a99e-085b7190f520"
+			},
+			"response": [
+				{
+					"name": "Get Profile By Id Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2004/profile/get-by-id/db8fedf4-cf2d-48c0-b283-b33d1d56e28b"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 09:19:27 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": \"db8fedf4-cf2d-48c0-b283-b33d1d56e28b\",\n    \"profileImage\": null,\n    \"bio\": \"Abcdef jkbdskjbs kjbsddjkb\",\n    \"coverImage\": null,\n    \"city\": null,\n    \"country\": null,\n    \"designation\": null,\n    \"company\": null,\n    \"updatedAt\": \"2023-10-30T08:37:14.000+00:00\",\n    \"username\": \"testuser2\",\n    \"firstName\": \"Test\",\n    \"lastName\": \"LastName\",\n    \"emailId\": \"test2@abc.com\",\n    \"dateOfBirth\": \"2000-09-26\",\n    \"gender\": \"Male\",\n    \"createdAt\": \"2023-10-30T08:07:12.000+00:00\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Seach Profiles",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2004/profile/search-profile/a"
+			},
+			"response": [
+				{
+					"name": "Get Profile By Id Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2004/profile/get-by-id/02db0b8e-d772-4ab2-9e37-24684a7e5516"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 06:33:26 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": \"02db0b8e-d772-4ab2-9e37-24684a7e5516\",\n    \"profileImage\": null,\n    \"bio\": \"Hi, I am a New Test User!!!\",\n    \"coverImage\": null,\n    \"city\": null,\n    \"country\": null,\n    \"designation\": null,\n    \"company\": null,\n    \"updatedAt\": \"2023-10-30T06:25:48.000+00:00\",\n    \"username\": \"testuser\",\n    \"firstName\": \"Test\",\n    \"lastName\": \"User\",\n    \"emailId\": \"test1234@abc.com\",\n    \"dateOfBirth\": \"2000-09-26\",\n    \"gender\": \"Male\",\n    \"createdAt\": \"2023-10-28T05:45:19.000+00:00\"\n}"
+				}
+			]
+		}
+	]
+}

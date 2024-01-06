@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: UserMS
+  cloud:
+    consul:
+      host: localhost 
+      discovery: 
+        hostname: localhost
+  datasource: 
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/user_db
+    username: root
+    password:
+  jpa: 
+    hibernate.ddl-auto: update
+
+resilience4j.circuitbreaker: 
+  configs:
+    default:
+      sliding-window-type: COUNT_BASED
+      sliding-window-size: 3
+      minimum-number-of-calls: 3
+      permitted-number-of-calls-in-half-open-state: 2
+      wait-duration-in-open-state: 60s
+      failure-rate-threshold: 50
+  instances:
+    loginService:
+      base-config: default
+   
+
+server: 
+  port: 2002  
+
+Service:
+  USERNAME_PRESENT: Username already exists.
+  USER_NOT_FOUND: User not found.
+  USERS_NOT_FOUND: No users found
+
+API:
+  REGISTER_SUCCESS: User profile successfully registered with Username
+  LOGIN_SUCCESS: User logged in successfully
+  LOGIN_FAILED: Invalid username or password
+  LOGIN_FALLBACK: Login is temporarily disabled. Please try again later.

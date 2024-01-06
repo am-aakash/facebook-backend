@@ -1,0 +1,1288 @@
+27-Oct-2023 15:49:44 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 15620 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:49:44 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:49:44 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:49:44 INFO - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:49:44 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:49:44 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:49:44 INFO - Starting service [Tomcat]
+27-Oct-2023 15:49:44 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:49:44 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:49:44 INFO - Root WebApplicationContext: initialization completed in 600 ms
+27-Oct-2023 15:49:44 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:49:44 INFO - HikariPool-46 - Starting...
+27-Oct-2023 15:49:44 INFO - HikariPool-46 - Start completed.
+27-Oct-2023 15:49:44 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:49:45 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:49:45 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:49:45 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:49:45 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:49:45 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:49:45 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:49:45 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:49:45 INFO - Started UserApplication in 1.835 seconds (JVM running for 2535.703)
+27-Oct-2023 15:49:45 INFO - Condition evaluation unchanged
+27-Oct-2023 15:49:56 INFO - Application shutdown requested.
+27-Oct-2023 15:49:56 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:49:56 INFO - HikariPool-46 - Shutdown initiated...
+27-Oct-2023 15:49:56 INFO - HikariPool-46 - Shutdown completed.
+27-Oct-2023 15:50:01 INFO - HV000001: Hibernate Validator 6.2.3.Final
+27-Oct-2023 15:50:01 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:50:01 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:50:02 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+27-Oct-2023 15:50:02 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+27-Oct-2023 15:50:03 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:50:03 INFO - Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:50:05 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:50:05 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:50:05 INFO - Starting service [Tomcat]
+27-Oct-2023 15:50:05 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:50:05 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:50:05 INFO - Root WebApplicationContext: initialization completed in 3211 ms
+27-Oct-2023 15:50:05 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:50:05 INFO - HHH000412: Hibernate ORM core version 5.6.7.Final
+27-Oct-2023 15:50:06 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+27-Oct-2023 15:50:06 INFO - HikariPool-1 - Starting...
+27-Oct-2023 15:50:06 INFO - HikariPool-1 - Start completed.
+27-Oct-2023 15:50:06 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:50:07 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:50:07 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:50:08 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:50:09 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:50:09 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:50:09 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:50:09 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:50:09 INFO - Started UserApplication in 8.786 seconds (JVM running for 10.988)
+27-Oct-2023 15:50:10 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-Oct-2023 15:50:10 INFO - Initializing Servlet 'dispatcherServlet'
+27-Oct-2023 15:50:10 INFO - Completed initialization in 1 ms
+27-Oct-2023 15:50:34 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:50:34 INFO - HikariPool-1 - Shutdown initiated...
+27-Oct-2023 15:50:34 INFO - HikariPool-1 - Shutdown completed.
+27-Oct-2023 15:50:34 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:50:34 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:50:34 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:50:34 INFO - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:50:34 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:50:34 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:50:34 INFO - Starting service [Tomcat]
+27-Oct-2023 15:50:34 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:50:34 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:50:34 INFO - Root WebApplicationContext: initialization completed in 635 ms
+27-Oct-2023 15:50:35 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:50:35 INFO - HikariPool-2 - Starting...
+27-Oct-2023 15:50:35 INFO - HikariPool-2 - Start completed.
+27-Oct-2023 15:50:35 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:50:35 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:50:35 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:50:35 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:50:35 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:50:35 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:50:35 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:50:35 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:50:35 INFO - Started UserApplication in 1.401 seconds (JVM running for 36.712)
+27-Oct-2023 15:50:35 INFO - Condition evaluation unchanged
+27-Oct-2023 15:52:09 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:52:09 INFO - HikariPool-2 - Shutdown initiated...
+27-Oct-2023 15:52:09 INFO - HikariPool-2 - Shutdown completed.
+27-Oct-2023 15:52:09 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:52:09 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:52:10 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:52:10 INFO - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:52:10 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:52:10 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:52:10 INFO - Starting service [Tomcat]
+27-Oct-2023 15:52:10 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:52:10 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:52:10 INFO - Root WebApplicationContext: initialization completed in 658 ms
+27-Oct-2023 15:52:10 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:52:10 INFO - HikariPool-3 - Starting...
+27-Oct-2023 15:52:10 INFO - HikariPool-3 - Start completed.
+27-Oct-2023 15:52:10 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:52:10 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:52:10 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:52:10 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:52:10 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:52:10 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:52:10 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:52:10 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:52:10 INFO - Started UserApplication in 1.416 seconds (JVM running for 131.97)
+27-Oct-2023 15:52:10 INFO - Condition evaluation unchanged
+27-Oct-2023 15:52:22 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:52:22 INFO - HikariPool-3 - Shutdown initiated...
+27-Oct-2023 15:52:22 INFO - HikariPool-3 - Shutdown completed.
+27-Oct-2023 15:52:22 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:52:22 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:52:23 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:52:23 INFO - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:52:23 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:52:23 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:52:23 INFO - Starting service [Tomcat]
+27-Oct-2023 15:52:23 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:52:23 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:52:23 INFO - Root WebApplicationContext: initialization completed in 615 ms
+27-Oct-2023 15:52:23 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:52:23 INFO - HikariPool-4 - Starting...
+27-Oct-2023 15:52:23 INFO - HikariPool-4 - Start completed.
+27-Oct-2023 15:52:23 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:52:23 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:52:23 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:52:23 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:52:24 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:52:24 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:52:24 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:52:24 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:52:24 INFO - Started UserApplication in 1.302 seconds (JVM running for 145.162)
+27-Oct-2023 15:52:24 INFO - Condition evaluation unchanged
+27-Oct-2023 15:52:45 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:52:45 INFO - HikariPool-4 - Shutdown initiated...
+27-Oct-2023 15:52:45 INFO - HikariPool-4 - Shutdown completed.
+27-Oct-2023 15:52:45 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:52:45 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:52:45 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:52:45 INFO - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:52:46 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:52:46 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:52:46 INFO - Starting service [Tomcat]
+27-Oct-2023 15:52:46 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:52:46 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:52:46 INFO - Root WebApplicationContext: initialization completed in 616 ms
+27-Oct-2023 15:52:46 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:52:46 INFO - HikariPool-5 - Starting...
+27-Oct-2023 15:52:46 INFO - HikariPool-5 - Start completed.
+27-Oct-2023 15:52:46 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:52:46 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:52:46 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:52:46 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:52:46 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:52:46 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:52:46 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:52:46 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:52:46 INFO - Started UserApplication in 1.289 seconds (JVM running for 167.835)
+27-Oct-2023 15:52:46 INFO - Condition evaluation unchanged
+27-Oct-2023 15:53:53 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-Oct-2023 15:53:53 INFO - Initializing Servlet 'dispatcherServlet'
+27-Oct-2023 15:53:53 INFO - Completed initialization in 1 ms
+27-Oct-2023 15:54:52 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:54:52 INFO - HikariPool-5 - Shutdown initiated...
+27-Oct-2023 15:54:52 INFO - HikariPool-5 - Shutdown completed.
+27-Oct-2023 15:54:52 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:54:52 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:54:52 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:54:52 INFO - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:54:52 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:54:52 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:54:52 INFO - Starting service [Tomcat]
+27-Oct-2023 15:54:52 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:54:52 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:54:52 INFO - Root WebApplicationContext: initialization completed in 640 ms
+27-Oct-2023 15:54:53 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:54:53 INFO - HikariPool-6 - Starting...
+27-Oct-2023 15:54:53 INFO - HikariPool-6 - Start completed.
+27-Oct-2023 15:54:53 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:54:53 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:54:53 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:54:53 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:54:53 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:54:53 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:54:53 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:54:53 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:54:53 INFO - Started UserApplication in 1.376 seconds (JVM running for 294.721)
+27-Oct-2023 15:54:53 INFO - Condition evaluation unchanged
+27-Oct-2023 15:59:07 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:59:07 INFO - HikariPool-6 - Shutdown initiated...
+27-Oct-2023 15:59:07 INFO - HikariPool-6 - Shutdown completed.
+27-Oct-2023 15:59:08 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:59:08 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:59:08 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:59:08 INFO - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:59:08 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:59:08 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:59:08 INFO - Starting service [Tomcat]
+27-Oct-2023 15:59:08 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:59:08 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:59:08 INFO - Root WebApplicationContext: initialization completed in 666 ms
+27-Oct-2023 15:59:08 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:59:08 INFO - HikariPool-7 - Starting...
+27-Oct-2023 15:59:08 INFO - HikariPool-7 - Start completed.
+27-Oct-2023 15:59:08 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:59:08 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:59:08 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:59:09 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:59:09 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:59:09 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:59:09 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:59:09 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:59:09 INFO - Started UserApplication in 1.206 seconds (JVM running for 550.341)
+27-Oct-2023 15:59:09 INFO - Condition evaluation unchanged
+27-Oct-2023 15:59:36 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:59:36 INFO - HikariPool-7 - Shutdown initiated...
+27-Oct-2023 15:59:36 INFO - HikariPool-7 - Shutdown completed.
+27-Oct-2023 15:59:36 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 15:59:36 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 15:59:37 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 15:59:37 INFO - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 15:59:37 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 15:59:37 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:59:37 INFO - Starting service [Tomcat]
+27-Oct-2023 15:59:37 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 15:59:37 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 15:59:37 INFO - Root WebApplicationContext: initialization completed in 696 ms
+27-Oct-2023 15:59:37 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 15:59:37 INFO - HikariPool-8 - Starting...
+27-Oct-2023 15:59:37 INFO - HikariPool-8 - Start completed.
+27-Oct-2023 15:59:37 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 15:59:37 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 15:59:37 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 15:59:37 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 15:59:38 INFO - LiveReload server is running on port 35729
+27-Oct-2023 15:59:38 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 15:59:38 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 15:59:38 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 15:59:38 INFO - Started UserApplication in 1.366 seconds (JVM running for 579.344)
+27-Oct-2023 15:59:38 INFO - Condition evaluation unchanged
+27-Oct-2023 16:00:25 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:00:25 INFO - HikariPool-8 - Shutdown initiated...
+27-Oct-2023 16:00:25 INFO - HikariPool-8 - Shutdown completed.
+27-Oct-2023 16:00:25 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:00:25 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:00:26 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:00:26 INFO - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:00:26 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:00:26 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:00:26 INFO - Starting service [Tomcat]
+27-Oct-2023 16:00:26 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:00:26 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:00:26 INFO - Root WebApplicationContext: initialization completed in 729 ms
+27-Oct-2023 16:00:26 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:00:26 INFO - HikariPool-9 - Starting...
+27-Oct-2023 16:00:26 INFO - HikariPool-9 - Start completed.
+27-Oct-2023 16:00:26 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:00:26 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:00:26 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:00:26 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:00:26 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:00:26 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:00:26 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:00:26 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:00:26 INFO - Started UserApplication in 1.328 seconds (JVM running for 628.015)
+27-Oct-2023 16:00:26 INFO - Condition evaluation unchanged
+27-Oct-2023 16:02:16 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:02:16 INFO - HikariPool-9 - Shutdown initiated...
+27-Oct-2023 16:02:16 INFO - HikariPool-9 - Shutdown completed.
+27-Oct-2023 16:02:16 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:02:16 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:02:16 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:02:16 INFO - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:02:17 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:02:17 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:02:17 INFO - Starting service [Tomcat]
+27-Oct-2023 16:02:17 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:02:17 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:02:17 INFO - Root WebApplicationContext: initialization completed in 540 ms
+27-Oct-2023 16:02:17 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:02:17 INFO - HikariPool-10 - Starting...
+27-Oct-2023 16:02:17 INFO - HikariPool-10 - Start completed.
+27-Oct-2023 16:02:17 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:02:17 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:02:17 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:02:17 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:02:17 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:02:17 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:02:17 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:02:17 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:02:17 INFO - Started UserApplication in 1.189 seconds (JVM running for 738.665)
+27-Oct-2023 16:02:17 INFO - Condition evaluation unchanged
+27-Oct-2023 16:02:29 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:02:29 INFO - HikariPool-10 - Shutdown initiated...
+27-Oct-2023 16:02:29 INFO - HikariPool-10 - Shutdown completed.
+27-Oct-2023 16:02:29 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:02:29 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:02:29 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:02:29 INFO - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:02:30 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:02:30 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:02:30 INFO - Starting service [Tomcat]
+27-Oct-2023 16:02:30 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:02:30 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:02:30 INFO - Root WebApplicationContext: initialization completed in 519 ms
+27-Oct-2023 16:02:30 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:02:30 INFO - HikariPool-11 - Starting...
+27-Oct-2023 16:02:30 INFO - HikariPool-11 - Start completed.
+27-Oct-2023 16:02:30 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:02:30 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:02:30 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:02:30 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:02:30 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:02:30 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:02:30 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:02:30 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:02:30 INFO - Started UserApplication in 1.099 seconds (JVM running for 751.625)
+27-Oct-2023 16:02:30 INFO - Condition evaluation unchanged
+27-Oct-2023 16:03:02 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:02 INFO - HikariPool-11 - Shutdown initiated...
+27-Oct-2023 16:03:02 INFO - HikariPool-11 - Shutdown completed.
+27-Oct-2023 16:03:02 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:03:02 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:03:02 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:03:02 INFO - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:03:02 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:03:02 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:02 INFO - Starting service [Tomcat]
+27-Oct-2023 16:03:02 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:03:02 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:03:02 INFO - Root WebApplicationContext: initialization completed in 636 ms
+27-Oct-2023 16:03:03 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:03:03 INFO - HikariPool-12 - Starting...
+27-Oct-2023 16:03:03 INFO - HikariPool-12 - Start completed.
+27-Oct-2023 16:03:03 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:03:03 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:03:03 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:03 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:03:03 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:03:03 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:03:03 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:03 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:03:03 INFO - Started UserApplication in 1.211 seconds (JVM running for 784.519)
+27-Oct-2023 16:03:03 INFO - Condition evaluation unchanged
+27-Oct-2023 16:03:09 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:09 INFO - HikariPool-12 - Shutdown initiated...
+27-Oct-2023 16:03:09 INFO - HikariPool-12 - Shutdown completed.
+27-Oct-2023 16:03:09 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:03:09 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:03:09 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:03:09 INFO - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:03:09 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:03:09 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:09 INFO - Starting service [Tomcat]
+27-Oct-2023 16:03:09 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:03:09 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:03:09 INFO - Root WebApplicationContext: initialization completed in 598 ms
+27-Oct-2023 16:03:10 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:03:10 INFO - HikariPool-13 - Starting...
+27-Oct-2023 16:03:10 INFO - HikariPool-13 - Start completed.
+27-Oct-2023 16:03:10 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:03:10 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:03:10 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:10 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:03:10 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:03:10 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:03:10 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:10 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:03:10 INFO - Started UserApplication in 1.26 seconds (JVM running for 791.566)
+27-Oct-2023 16:03:10 INFO - Condition evaluation unchanged
+27-Oct-2023 16:03:28 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:28 INFO - HikariPool-13 - Shutdown initiated...
+27-Oct-2023 16:03:28 INFO - HikariPool-13 - Shutdown completed.
+27-Oct-2023 16:03:28 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:03:28 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:03:28 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:03:28 INFO - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:03:29 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:03:29 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:29 INFO - Starting service [Tomcat]
+27-Oct-2023 16:03:29 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:03:29 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:03:29 INFO - Root WebApplicationContext: initialization completed in 657 ms
+27-Oct-2023 16:03:29 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:03:29 INFO - HikariPool-14 - Starting...
+27-Oct-2023 16:03:29 INFO - HikariPool-14 - Start completed.
+27-Oct-2023 16:03:29 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:03:29 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:03:29 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:29 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:03:29 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:03:29 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:03:29 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:29 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:03:29 INFO - Started UserApplication in 1.16 seconds (JVM running for 810.661)
+27-Oct-2023 16:03:29 INFO - Condition evaluation unchanged
+27-Oct-2023 16:03:35 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:35 INFO - HikariPool-14 - Shutdown initiated...
+27-Oct-2023 16:03:35 INFO - HikariPool-14 - Shutdown completed.
+27-Oct-2023 16:03:35 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:03:35 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:03:35 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:03:35 INFO - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:03:35 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:03:35 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:35 INFO - Starting service [Tomcat]
+27-Oct-2023 16:03:35 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:03:36 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:03:36 INFO - Root WebApplicationContext: initialization completed in 654 ms
+27-Oct-2023 16:03:36 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:03:36 INFO - HikariPool-15 - Starting...
+27-Oct-2023 16:03:36 INFO - HikariPool-15 - Start completed.
+27-Oct-2023 16:03:36 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:03:36 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:03:36 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:36 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:03:36 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:03:36 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:03:36 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:36 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:03:36 INFO - Started UserApplication in 1.223 seconds (JVM running for 817.579)
+27-Oct-2023 16:03:36 INFO - Condition evaluation unchanged
+27-Oct-2023 16:03:46 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:46 INFO - HikariPool-15 - Shutdown initiated...
+27-Oct-2023 16:03:46 INFO - HikariPool-15 - Shutdown completed.
+27-Oct-2023 16:03:46 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:03:46 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:03:46 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:03:46 INFO - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:03:46 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:03:46 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:46 INFO - Starting service [Tomcat]
+27-Oct-2023 16:03:46 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:03:47 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:03:47 INFO - Root WebApplicationContext: initialization completed in 685 ms
+27-Oct-2023 16:03:47 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:03:47 INFO - HikariPool-16 - Starting...
+27-Oct-2023 16:03:47 INFO - HikariPool-16 - Start completed.
+27-Oct-2023 16:03:47 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:03:47 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:03:47 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:47 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:03:47 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:03:47 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:03:47 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:47 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:03:47 INFO - Started UserApplication in 1.186 seconds (JVM running for 828.527)
+27-Oct-2023 16:03:47 INFO - Condition evaluation unchanged
+27-Oct-2023 16:03:48 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:48 INFO - HikariPool-16 - Shutdown initiated...
+27-Oct-2023 16:03:48 INFO - HikariPool-16 - Shutdown completed.
+27-Oct-2023 16:03:49 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:03:49 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:03:49 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:03:49 INFO - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:03:49 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:03:49 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:49 INFO - Starting service [Tomcat]
+27-Oct-2023 16:03:49 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:03:49 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:03:49 INFO - Root WebApplicationContext: initialization completed in 558 ms
+27-Oct-2023 16:03:49 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:03:49 INFO - HikariPool-17 - Starting...
+27-Oct-2023 16:03:49 INFO - HikariPool-17 - Start completed.
+27-Oct-2023 16:03:49 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:03:49 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:03:49 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:49 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:03:49 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:03:49 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:03:50 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:50 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:03:50 INFO - Started UserApplication in 1.02 seconds (JVM running for 831.095)
+27-Oct-2023 16:03:50 INFO - Condition evaluation unchanged
+27-Oct-2023 16:03:52 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:52 INFO - HikariPool-17 - Shutdown initiated...
+27-Oct-2023 16:03:52 INFO - HikariPool-17 - Shutdown completed.
+27-Oct-2023 16:03:52 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:03:52 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:03:53 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:03:53 INFO - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:03:53 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:03:53 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:53 INFO - Starting service [Tomcat]
+27-Oct-2023 16:03:53 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:03:53 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:03:53 INFO - Root WebApplicationContext: initialization completed in 687 ms
+27-Oct-2023 16:03:53 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:03:53 INFO - HikariPool-18 - Starting...
+27-Oct-2023 16:03:53 INFO - HikariPool-18 - Start completed.
+27-Oct-2023 16:03:53 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:03:53 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:03:53 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:03:53 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:03:53 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:03:53 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:03:53 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:03:53 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:03:53 INFO - Started UserApplication in 1.264 seconds (JVM running for 834.954)
+27-Oct-2023 16:03:53 INFO - Condition evaluation unchanged
+27-Oct-2023 16:04:06 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:04:06 INFO - HikariPool-18 - Shutdown initiated...
+27-Oct-2023 16:04:06 INFO - HikariPool-18 - Shutdown completed.
+27-Oct-2023 16:04:07 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:04:07 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:04:07 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:04:07 INFO - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:04:07 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:04:07 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:04:07 INFO - Starting service [Tomcat]
+27-Oct-2023 16:04:07 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:04:07 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:04:07 INFO - Root WebApplicationContext: initialization completed in 518 ms
+27-Oct-2023 16:04:07 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:04:07 INFO - HikariPool-19 - Starting...
+27-Oct-2023 16:04:07 INFO - HikariPool-19 - Start completed.
+27-Oct-2023 16:04:07 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:04:07 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:04:07 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:04:07 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:04:08 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:04:08 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:04:08 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:04:08 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:04:08 INFO - Started UserApplication in 1.14 seconds (JVM running for 849.31)
+27-Oct-2023 16:04:08 INFO - Condition evaluation unchanged
+27-Oct-2023 16:04:38 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:04:38 INFO - HikariPool-19 - Shutdown initiated...
+27-Oct-2023 16:04:38 INFO - HikariPool-19 - Shutdown completed.
+27-Oct-2023 16:04:39 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:04:39 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:04:39 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:04:39 INFO - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:04:39 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:04:39 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:04:39 INFO - Starting service [Tomcat]
+27-Oct-2023 16:04:39 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:04:39 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:04:39 INFO - Root WebApplicationContext: initialization completed in 470 ms
+27-Oct-2023 16:04:39 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:04:39 INFO - HikariPool-20 - Starting...
+27-Oct-2023 16:04:39 INFO - HikariPool-20 - Start completed.
+27-Oct-2023 16:04:39 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:04:39 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:04:39 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:04:39 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:04:39 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:04:39 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:04:39 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:04:40 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:04:40 INFO - Started UserApplication in 1.038 seconds (JVM running for 881.073)
+27-Oct-2023 16:04:40 INFO - Condition evaluation unchanged
+27-Oct-2023 16:04:48 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:04:48 INFO - HikariPool-20 - Shutdown initiated...
+27-Oct-2023 16:04:48 INFO - HikariPool-20 - Shutdown completed.
+27-Oct-2023 16:04:49 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:04:49 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:04:49 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:04:49 INFO - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:04:49 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:04:49 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:04:49 INFO - Starting service [Tomcat]
+27-Oct-2023 16:04:49 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:04:49 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:04:49 INFO - Root WebApplicationContext: initialization completed in 697 ms
+27-Oct-2023 16:04:49 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:04:49 INFO - HikariPool-21 - Starting...
+27-Oct-2023 16:04:49 INFO - HikariPool-21 - Start completed.
+27-Oct-2023 16:04:49 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:04:50 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:04:50 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:04:50 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:04:50 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:04:50 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:04:50 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:04:50 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:04:50 INFO - Started UserApplication in 1.516 seconds (JVM running for 891.57)
+27-Oct-2023 16:04:50 INFO - Condition evaluation unchanged
+27-Oct-2023 16:05:25 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:05:25 INFO - HikariPool-21 - Shutdown initiated...
+27-Oct-2023 16:05:25 INFO - HikariPool-21 - Shutdown completed.
+27-Oct-2023 16:05:25 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:05:25 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:05:25 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:05:25 INFO - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:05:25 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:05:25 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:05:25 INFO - Starting service [Tomcat]
+27-Oct-2023 16:05:25 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:05:25 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:05:25 INFO - Root WebApplicationContext: initialization completed in 556 ms
+27-Oct-2023 16:05:25 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:05:25 INFO - HikariPool-22 - Starting...
+27-Oct-2023 16:05:26 INFO - HikariPool-22 - Start completed.
+27-Oct-2023 16:05:26 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:05:26 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:05:26 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:05:26 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:05:26 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:05:26 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:05:26 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:05:26 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:05:26 INFO - Started UserApplication in 1.129 seconds (JVM running for 927.436)
+27-Oct-2023 16:05:26 INFO - Condition evaluation unchanged
+27-Oct-2023 16:06:48 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-Oct-2023 16:06:48 INFO - Initializing Servlet 'dispatcherServlet'
+27-Oct-2023 16:06:48 INFO - Completed initialization in 5 ms
+27-Oct-2023 16:06:48 ERROR - Service.USER_NOT_FOUND
+java.lang.Exception: Service.USER_NOT_FOUND
+	at com.infy.user.service.UserServiceImpl.findUserByUsername(UserServiceImpl.java:26) ~[classes/:?]
+	at com.infy.user.service.UserServiceImpl$$FastClassBySpringCGLIB$$f1bdd777.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar:5.3.18]
+	at com.infy.user.service.UserServiceImpl$$EnhancerBySpringCGLIB$$27c89c62.findUserByUsername(<generated>) ~[classes/:?]
+	at com.infy.user.api.UserAPI.getUser(UserAPI.java:51) ~[classes/:?]
+	at com.infy.user.api.UserAPI$$FastClassBySpringCGLIB$$7be83681.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar:5.3.18]
+	at com.infy.user.api.UserAPI$$EnhancerBySpringCGLIB$$cfc285cb.getUser(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.6.jar:2.6.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+27-Oct-2023 16:06:48 WARN - Resolved [java.lang.Exception: Service.USER_NOT_FOUND]
+27-Oct-2023 16:07:48 ERROR - query did not return a unique result: 5; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 5
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 5
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:385) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.6.3.jar:2.6.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.18.jar:5.3.18]
+	at jdk.proxy25.$Proxy259.findByUsername(Unknown Source) ~[?:?]
+	at com.infy.user.service.UserServiceImpl.findUserByUsername(UserServiceImpl.java:25) ~[classes/:?]
+	at com.infy.user.service.UserServiceImpl$$FastClassBySpringCGLIB$$f1bdd777.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar:5.3.18]
+	at com.infy.user.service.UserServiceImpl$$EnhancerBySpringCGLIB$$27c89c62.findUserByUsername(<generated>) ~[classes/:?]
+	at com.infy.user.api.UserAPI.getUser(UserAPI.java:51) ~[classes/:?]
+	at com.infy.user.api.UserAPI$$FastClassBySpringCGLIB$$7be83681.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar:5.3.18]
+	at com.infy.user.api.UserAPI$$EnhancerBySpringCGLIB$$cfc285cb.getUser(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.6.jar:2.6.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: javax.persistence.NonUniqueResultException: query did not return a unique result: 5
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1672) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198) ~[spring-data-jpa-2.6.3.jar:2.6.3]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90) ~[spring-data-jpa-2.6.3.jar:2.6.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155) ~[spring-data-jpa-2.6.3.jar:2.6.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143) ~[spring-data-jpa-2.6.3.jar:2.6.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.6.3.jar:2.6.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.6.3.jar:2.6.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159) ~[spring-data-commons-2.6.3.jar:2.6.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.6.3.jar:2.6.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.18.jar:5.3.18]
+	... 85 more
+27-Oct-2023 16:07:48 WARN - Resolved [org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 5]
+27-Oct-2023 16:09:20 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:09:20 INFO - HikariPool-22 - Shutdown initiated...
+27-Oct-2023 16:09:20 INFO - HikariPool-22 - Shutdown completed.
+27-Oct-2023 16:09:20 INFO - Starting UserApplication using Java 17.0.6 on MYSGECG063-023 with PID 14884 (C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS\target\classes started by aakashkumar.c in C:\Users\aakashkumar.c\Documents\capstone-workspace\facebook-server\UserMS)
+27-Oct-2023 16:09:20 INFO - No active profile set, falling back to 1 default profile: "default"
+27-Oct-2023 16:09:21 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-Oct-2023 16:09:21 INFO - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+27-Oct-2023 16:09:21 INFO - Tomcat initialized with port(s): 2002 (http)
+27-Oct-2023 16:09:21 INFO - Initializing ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:09:21 INFO - Starting service [Tomcat]
+27-Oct-2023 16:09:21 INFO - Starting Servlet engine: [Apache Tomcat/9.0.60]
+27-Oct-2023 16:09:21 INFO - Initializing Spring embedded WebApplicationContext
+27-Oct-2023 16:09:21 INFO - Root WebApplicationContext: initialization completed in 608 ms
+27-Oct-2023 16:09:21 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-Oct-2023 16:09:21 INFO - HikariPool-23 - Starting...
+27-Oct-2023 16:09:21 INFO - HikariPool-23 - Start completed.
+27-Oct-2023 16:09:21 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+27-Oct-2023 16:09:21 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2023 16:09:21 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:09:21 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-Oct-2023 16:09:21 INFO - LiveReload server is running on port 35729
+27-Oct-2023 16:09:21 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+27-Oct-2023 16:09:21 INFO - Starting ProtocolHandler ["http-nio-2002"]
+27-Oct-2023 16:09:21 INFO - Tomcat started on port(s): 2002 (http) with context path ''
+27-Oct-2023 16:09:21 INFO - Started UserApplication in 1.162 seconds (JVM running for 1162.736)
+27-Oct-2023 16:09:21 INFO - Condition evaluation unchanged
+27-Oct-2023 16:09:37 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-Oct-2023 16:09:37 INFO - Initializing Servlet 'dispatcherServlet'
+27-Oct-2023 16:09:37 INFO - Completed initialization in 1 ms
+27-Oct-2023 16:11:07 ERROR - Service.USERNAME_PRESENT
+java.lang.Exception: Service.USERNAME_PRESENT
+	at com.infy.user.service.UserServiceImpl.registerUser(UserServiceImpl.java:39) ~[classes/:?]
+	at com.infy.user.service.UserServiceImpl$$FastClassBySpringCGLIB$$f1bdd777.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar:5.3.18]
+	at com.infy.user.service.UserServiceImpl$$EnhancerBySpringCGLIB$$27c89c62.registerUser(<generated>) ~[classes/:?]
+	at com.infy.user.api.UserAPI.register(UserAPI.java:36) ~[classes/:?]
+	at com.infy.user.api.UserAPI$$FastClassBySpringCGLIB$$7be83681.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar:5.3.18]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar:5.3.18]
+	at com.infy.user.api.UserAPI$$EnhancerBySpringCGLIB$$cfc285cb.register(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.6.jar:2.6.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+27-Oct-2023 16:11:07 WARN - Resolved [java.lang.Exception: Service.USERNAME_PRESENT]
+27-Oct-2023 16:11:35 ERROR - JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:391) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.6.jar:2.6.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1991) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1219) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.JSR310DeserializerBase._handleDateTimeException(JSR310DeserializerBase.java:176) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:172) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+Caused by: java.time.format.DateTimeParseException: Text '10-09-2002' could not be parsed at index 0
+	at java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2052) ~[?:?]
+	at java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1954) ~[?:?]
+	at java.time.LocalDate.parse(LocalDate.java:430) ~[?:?]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:170) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+27-Oct-2023 16:11:35 WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])]
+27-Oct-2023 16:11:41 ERROR - JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:391) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.6.jar:2.6.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1991) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1219) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.JSR310DeserializerBase._handleDateTimeException(JSR310DeserializerBase.java:176) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:172) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+Caused by: java.time.format.DateTimeParseException: Text '10-09-2002' could not be parsed at index 0
+	at java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2052) ~[?:?]
+	at java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1954) ~[?:?]
+	at java.time.LocalDate.parse(LocalDate.java:430) ~[?:?]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:170) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+27-Oct-2023 16:11:41 WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])]
+27-Oct-2023 16:11:50 ERROR - JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:391) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.6.jar:2.6.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1991) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1219) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.JSR310DeserializerBase._handleDateTimeException(JSR310DeserializerBase.java:176) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:172) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+Caused by: java.time.format.DateTimeParseException: Text '10-09-2002' could not be parsed at index 0
+	at java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2052) ~[?:?]
+	at java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1954) ~[?:?]
+	at java.time.LocalDate.parse(LocalDate.java:430) ~[?:?]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:170) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+27-Oct-2023 16:11:50 WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])]
+27-Oct-2023 16:11:55 ERROR - JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:391) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar:5.3.18]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.6.jar:2.6.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar:5.3.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1991) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1219) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.JSR310DeserializerBase._handleDateTimeException(JSR310DeserializerBase.java:176) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:172) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+Caused by: java.time.format.DateTimeParseException: Text '10-09-2002' could not be parsed at index 0
+	at java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2052) ~[?:?]
+	at java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1954) ~[?:?]
+	at java.time.LocalDate.parse(LocalDate.java:430) ~[?:?]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:170) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:90) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:36) ~[jackson-datatype-jsr310-2.13.2.jar:2.13.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.2.2.jar:2.13.2.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.18.jar:5.3.18]
+	... 55 more
+27-Oct-2023 16:11:55 WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "10-09-2002": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '10-09-2002' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 20] (through reference chain: com.infy.user.dto.UserDTO["dateOfBirth"])]
+27-Oct-2023 16:12:29 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-Oct-2023 16:12:29 INFO - HikariPool-23 - Shutdown initiated...
+27-Oct-2023 16:12:29 INFO - HikariPool-23 - Shutdown completed.

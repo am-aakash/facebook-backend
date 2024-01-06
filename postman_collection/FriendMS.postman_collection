@@ -1,0 +1,479 @@
+{
+	"info": {
+		"_postman_id": "b3469574-c912-43fd-95e7-7ec9d587ac7b",
+		"name": "Friend MS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Friend",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:2006/friend/add-friends/b4bad63d-eb72-47dd-9158-56af48d6fde4/a6712404-f498-493a-b4d4-7aad248895c1"
+			},
+			"response": [
+				{
+					"name": "Add Friend Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:2006/friend/add-friends/b4bad63d-eb72-47dd-9158-56af48d6fde4/a6712404-f498-493a-b4d4-7aad248895c1"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:31:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Friend added\"\n}"
+				},
+				{
+					"name": "Already friends",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:2006/friend/add-friends/b4bad63d-eb72-47dd-9158-56af48d6fde4/a6712404-f498-493a-b4d4-7aad248895c1"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:32:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorMessage\": \"Friendship already Exists. Please refresh.\",\n    \"errorCode\": 500\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Category",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2006/friend/category/a6712404-f498-493a-b4d4-7aad248895c1/academy"
+			},
+			"response": [
+				{
+					"name": "Add Category Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "userId",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2006/friend/category/a6712404-f498-493a-b4d4-7aad248895c1/school"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:34:39 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Category Added\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Friends",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "559e8b4a-aa03-49f9-bce9-f0b9be31ff6f",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "559e8b4a-aa03-49f9-bce9-f0b9be31ff6f",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2006/friend/get-friends"
+			},
+			"response": [
+				{
+					"name": "Get Friends Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2006/friend/get-friends"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:48:35 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"friendshipId\": \"3603c31c-c4fc-4a7f-8c74-5ba4f9c7bba4\",\n        \"userId\": \"a6712404-f498-493a-b4d4-7aad248895c1\",\n        \"friendId\": \"a98fe283-8d57-40ec-8fde-c699a1a18abc\",\n        \"category\": null,\n        \"blocked\": false,\n        \"unfollowed\": false\n    },\n    {\n        \"friendshipId\": \"b668a92e-dc01-4ebf-90df-bedddba44f28\",\n        \"userId\": \"a6712404-f498-493a-b4d4-7aad248895c1\",\n        \"friendId\": \"b4bad63d-eb72-47dd-9158-56af48d6fde4\",\n        \"category\": null,\n        \"blocked\": false,\n        \"unfollowed\": false\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Friends Count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:2006/friend/get-friends-count/a6712404-f498-493a-b4d4-7aad248895c1"
+			},
+			"response": [
+				{
+					"name": "Get Friends Count",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2006/friend/get-friends-count/a6712404-f498-493a-b4d4-7aad248895c1"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 03 Nov 2023 04:36:15 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"count\": 2\n}"
+				}
+			]
+		},
+		{
+			"name": "Check Friendship",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:2006/friend/check-friendship/b4bad63d-eb72-47dd-9158-56af48d6fde4/951a1ecc-adbf-476d-9404-7a78b9c83c35"
+			},
+			"response": [
+				{
+					"name": "Check Friendship",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2006/friend/check-friendship/b4bad63d-eb72-47dd-9158-56af48d6fde4/a6712404-f498-493a-b4d4-7aad248895c1"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 03 Nov 2023 08:58:16 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Friend\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Categories",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2006/friend/get-categories/b4bad63d-eb72-47dd-9158-56af48d6fde4"
+			},
+			"response": [
+				{
+					"name": "Get Categories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2006/friend/get-categories/a6712404-f498-493a-b4d4-7aad248895c1"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 03 Nov 2023 04:49:12 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"school\"\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Friends By Category",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2006/friend/get-friends-by/school"
+			},
+			"response": [
+				{
+					"name": "Get Friends Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2006/friend/get-friends-by/school"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:36:30 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"friendshipId\": \"41d9e387-4c05-4bfa-bf76-2061addc5426\",\n        \"userId\": \"b4bad63d-eb72-47dd-9158-56af48d6fde4\",\n        \"friendId\": \"a6712404-f498-493a-b4d4-7aad248895c1\",\n        \"category\": \"school\",\n        \"blocked\": false,\n        \"unfollowed\": false\n    }\n]"
+				}
+			]
+		}
+	]
+}

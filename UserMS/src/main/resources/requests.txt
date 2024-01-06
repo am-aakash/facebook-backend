@@ -1,0 +1,50 @@
+POST: http://localhost:2002/user/register
+{
+    "username": "testuser",
+    "firstName": "Test",
+    "lastName": "",
+    "emailId": "test123@abc.com",
+    "dateOfBirth": "2000-09-26",
+    "gender": "Male",
+    "password": "Test123"
+} 
+
+PUT: http://localhost:2002/user/update-profile
+{
+    "username": "testuser",
+    "firstName": "Test",
+    "lastName": "LastName",
+    "emailId": "test1234@abc.com",
+    "dateOfBirth": "2002-09-26"
+}
+
+POST: http://localhost:2002/user/login
+{
+    "username": "testuser",
+    "password": "Test123"
+}
+response:
+{
+    "success": true,
+    "token": "2b9a823c-aa6c-43b1-b48e-c1386cf27d3a",
+    "message": "User logged in successfully",
+    "userId": "2b9a823c-aa6c-43b1-b48e-c1386cf27d3a"
+}
+
+PUT: http://localhost:2002/user/change-password
+{
+    "username": "testuser",
+    "password": "Test1234"
+}
+
+GET: http://localhost:2002/user/testuser
+
+GET: http://localhost:2002/user/forgot-password/testuser/test@abc.com
+
+GET: http://localhost:2002/user/id/02db0b8e-d772-4ab2-9e37-24684a7e5516
+
+GET: http://localhost:2002/user/search/test
+
+GET: http://localhost:2002/user/check-username/am_aakash
+
+GET: http://localhost:2002/user/check-token/db8fedf4-cf2d-48c0-b283-b33d1d56e28b/db8fedf4-cf2d-48c0-b283-b33d1d56e28b

@@ -1,0 +1,696 @@
+{
+	"info": {
+		"_postman_id": "addf8c04-2525-43d4-92cc-ef846e7bb797",
+		"name": "Posts MS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Creat Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "5b7f630c-1f99-4fbf-b377-ae547b19f75c",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "5b7f630c-1f99-4fbf-b377-ae547b19f75c",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\": \"What a view!!\",\r\n    \"mediaType\": \"Image\",\r\n    \"mediaUrl\": \"http://myslab42s08:3000/aakashkumar.c/infymovie-server/raw/branch/main/assets/post_7.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2003/post/create-post"
+			},
+			"response": [
+				{
+					"name": "Creat Post",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "5b7f630c-1f99-4fbf-b377-ae547b19f75c",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "5b7f630c-1f99-4fbf-b377-ae547b19f75c",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\": \"Visited Taj mahal last week. What a mesmerizing experience it was!!\",\r\n    \"mediaType\": \"Image\",\r\n    \"mediaUrl\": \"http://myslab42s08:3000/aakashkumar.c/infymovie-server/raw/branch/main/assets/post_3.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/create-post"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 13:28:50 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Added Post\"\n}"
+				},
+				{
+					"name": "Creat Post 2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "93409803-6465-47e5-a99e-085b7190f520",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "93409803-6465-47e5-a99e-085b7190f520",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\": \"I am trying cooking from few days. But I can't cook that good. Shared my best pic in apron!!\",\r\n    \"mediaType\": \"Image\",\r\n    \"mediaUrl\": \"http://myslab42s08:3000/aakashkumar.c/infymovie-server/raw/branch/main/assets/post_1.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/create-post"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 15:57:46 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Added Post\"\n}"
+				},
+				{
+					"name": "Creat Post 3",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "a4bf96d7-d6b4-4b2c-96f1-822d337299a1",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "a4bf96d7-d6b4-4b2c-96f1-822d337299a1",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\": \"I'm not a tourist, I'm a traveler. I'm not here to take pictures and check off boxes on a list. I'm here to immerse myself in the culture, connect with the people, and discover the hidden gems that only locals know about.\",\r\n    \"mediaType\": \"Image\",\r\n    \"mediaUrl\": \"http://myslab42s08:3000/aakashkumar.c/infymovie-server/raw/branch/main/assets/post_4.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/create-post"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 16:04:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Added Post\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Posts for user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2003/post/get-posts/5b7f630c-1f99-4fbf-b377-ae547b19f75c"
+			},
+			"response": [
+				{
+					"name": "Get Posts for user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/get-posts/93409803-6465-47e5-a99e-085b7190f520"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 13:22:35 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"postId\": \"2c7bc5b8-5578-4dd3-8b5d-7c2d4a179571\",\n        \"userId\": \"93409803-6465-47e5-a99e-085b7190f520\",\n        \"content\": \"I am trying cooking from few days. But I can't cook that good. <br/>Shared my best pic in apron!!\",\n        \"mediaType\": \"Image\",\n        \"mediaUrl\": \"http://myslab42s08:3000/aakashkumar.c/infymovie-server/src/branch/main/assets/post_1.jpg\",\n        \"mediaContent\": null,\n        \"timestamp\": \"2023-11-04T13:22:01.000+00:00\"\n    },\n    {\n        \"postId\": \"ae256c8a-fe8a-48ef-8e6a-d71695b92245\",\n        \"userId\": \"93409803-6465-47e5-a99e-085b7190f520\",\n        \"content\": \"I am trying cooking from few days. But I can't cook that good. <br/>Shared my best pic in apron!!\",\n        \"mediaType\": null,\n        \"mediaUrl\": null,\n        \"mediaContent\": null,\n        \"timestamp\": \"2023-11-04T13:22:22.000+00:00\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Like Post",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2003/post/like/241e9674-5e2e-4849-9328-d193d88a2408"
+			},
+			"response": [
+				{
+					"name": "Like Post",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/like/241e9674-5e2e-4849-9328-d193d88a2408"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 12:37:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Check Like",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2003/post/check-like/241e9674-5e2e-4849-9328-d193d88a2408"
+			},
+			"response": [
+				{
+					"name": "Check Like",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/check-like/241e9674-5e2e-4849-9328-d193d88a2408"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 12:38:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Count Like",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2003/post/count-like/241e9674-5e2e-4849-9328-d193d88a2408"
+			},
+			"response": [
+				{
+					"name": "Count Like",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/count-like/241e9674-5e2e-4849-9328-d193d88a2408"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 12:43:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"count\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Like",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2003/post/delete-like/241e9674-5e2e-4849-9328-d193d88a2408"
+			},
+			"response": [
+				{
+					"name": "Delete Like",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2003/post/delete-like/241e9674-5e2e-4849-9328-d193d88a2408"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Nov 2023 12:38:51 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		}
+	]
+}

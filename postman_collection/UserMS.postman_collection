@@ -1,0 +1,707 @@
+{
+	"info": {
+		"_postman_id": "bed7ae28-0345-48ce-a1ae-eaec581490d8",
+		"name": "User MS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"testuser4\",\r\n    \"firstName\": \"Test4\",\r\n    \"lastName\": \"LastName\",\r\n    \"emailId\": \"test4@abc.com\",\r\n    \"dateOfBirth\": \"2000-09-26\",\r\n    \"gender\": \"Male\",\r\n    \"password\": \"Test123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2002/user/register"
+			},
+			"response": [
+				{
+					"name": "Register User Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"testuser2\",\r\n    \"firstName\": \"Test\",\r\n    \"lastName\": \"LastName\",\r\n    \"emailId\": \"test2@abc.com\",\r\n    \"dateOfBirth\": \"2000-09-26\",\r\n    \"gender\": \"Male\",\r\n    \"password\": \"Test123\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2002/user/register"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:07:12 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"token\": \"db8fedf4-cf2d-48c0-b283-b33d1d56e28b\",\n    \"message\": \"User successfully registered with Username\",\n    \"userId\": \"db8fedf4-cf2d-48c0-b283-b33d1d56e28b\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Profile",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"firstName\": \"Test\",\r\n    \"lastName\": \"LastName\",\r\n    \"emailId\": \"test1234@abc.com\",\r\n    \"dateOfBirth\": \"2002-09-26\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2002/user/update-profile"
+			},
+			"response": [
+				{
+					"name": "Update Profile Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"firstName\": \"Test\",\r\n    \"lastName\": \"LastName\",\r\n    \"emailId\": \"test1234@abc.com\",\r\n    \"dateOfBirth\": \"2002-09-26\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2002/user/update-profile"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 29 Oct 2023 04:46:53 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Login User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"password\": \"Test1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2002/user/login"
+			},
+			"response": [
+				{
+					"name": "Login User Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"password\": \"Test123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2002/user/login"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:07:52 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"token\": \"2b9a823c-aa6c-43b1-b48e-c1386cf27d3a\",\n    \"message\": \"User logged in successfully\",\n    \"userId\": \"2b9a823c-aa6c-43b1-b48e-c1386cf27d3a\"\n}"
+				},
+				{
+					"name": "Login User Invalid",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"password\": \"Test1235\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2002/user/login"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:08:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorMessage\": \"Invalid username or password\",\n    \"errorCode\": 500\n}"
+				},
+				{
+					"name": "Login User Disabled fallback",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"password\": \"Test1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2002/user/login"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 11:05:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"token\": null,\n    \"message\": \"Login is temporarily disabled. Please try again later.\",\n    \"userId\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Change Password",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"password\": \"Test1234\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2002/user/change-password"
+			},
+			"response": [
+				{
+					"name": "Change Password Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"testuser\",\r\n    \"password\": \"Test1234\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:2002/user/change-password"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 29 Oct 2023 04:43:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Get user by username",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:2002/user/testuser"
+			},
+			"response": [
+				{
+					"name": "Get user by username Succes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2002/user/testuser"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 28 Oct 2023 05:48:33 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": \"02db0b8e-d772-4ab2-9e37-24684a7e5516\",\n    \"username\": \"testuser\",\n    \"firstName\": \"Test\",\n    \"lastName\": \"\",\n    \"emailId\": \"test123@abc.com\",\n    \"dateOfBirth\": \"2000-09-26\",\n    \"gender\": \"Male\",\n    \"password\": \"Test123\",\n    \"createdAt\": \"2023-10-28T05:45:19.000+00:00\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Forgot Password",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:2002/user/forgot-password/testuser/test@abc.com"
+			},
+			"response": [
+				{
+					"name": "Forgot Password Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2002/user/forgot-password/testuser/test@abc.co"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Disposition",
+							"value": "inline;filename=f.txt"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:49:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Get user by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:2002/user/id/02db0b8e-d772-4ab2-9e37-24684a7e5516"
+			},
+			"response": [
+				{
+					"name": "Get user by id example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2002/user/id/02db0b8e-d772-4ab2-9e37-24684a7e5516"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 28 Oct 2023 05:49:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": \"02db0b8e-d772-4ab2-9e37-24684a7e5516\",\n    \"username\": \"testuser\",\n    \"firstName\": \"Test\",\n    \"lastName\": \"\",\n    \"emailId\": \"test123@abc.com\",\n    \"dateOfBirth\": \"2000-09-26\",\n    \"gender\": \"Male\",\n    \"password\": \"Test123\",\n    \"createdAt\": \"2023-10-28T05:45:19.000+00:00\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get users by keyword",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2002/user/search/test"
+			},
+			"response": [
+				{
+					"name": "Get users by keyword Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2002/user/search/test"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 06:58:13 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"userId\": \"02db0b8e-d772-4ab2-9e37-24684a7e5516\",\n        \"username\": \"testuser\",\n        \"firstName\": \"Test\",\n        \"lastName\": \"User\",\n        \"emailId\": \"test1234@abc.com\",\n        \"dateOfBirth\": \"2000-09-26\",\n        \"gender\": \"Male\",\n        \"password\": \"Test1234\",\n        \"createdAt\": \"2023-10-28T05:45:19.000+00:00\"\n    },\n    {\n        \"userId\": \"5184e483-110d-49d1-8629-768b360cc515\",\n        \"username\": \"testuser2\",\n        \"firstName\": \"Test\",\n        \"lastName\": \"\",\n        \"emailId\": \"test2@abc.com\",\n        \"dateOfBirth\": \"2000-09-26\",\n        \"gender\": \"Male\",\n        \"password\": \"Test123\",\n        \"createdAt\": \"2023-10-30T06:57:30.000+00:00\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Check username",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:2002/user/check-username/testuser"
+			},
+			"response": [
+				{
+					"name": "Username not valid",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2002/user/check-username/testuser"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 28 Oct 2023 05:52:09 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": false\n}"
+				},
+				{
+					"name": "Username Valid",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2002/user/check-username/am_aakash"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 28 Oct 2023 05:52:42 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Check token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:2002/user/check-token/db8fedf4-cf2d-48c0-b283-b33d1d56e28b/db8fedf4-cf2d-48c0-b283-b33d1d56e28b"
+			},
+			"response": [
+				{
+					"name": "Check token",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "db8fedf4-cf2d-48c0-b283-b33d1d56e28b",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2002/user/check-token"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:14:18 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				},
+				{
+					"name": "Check token Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:2002/user/check-token/db8fedf4-cf2d-48c0-b283-b33d1d56e28b/db8fedf4-cf2d-48c0-b283-b33d1d56e28b"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 08:25:43 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"check\": true\n}"
+				}
+			]
+		}
+	]
+}

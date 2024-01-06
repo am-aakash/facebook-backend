@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: FriendRequestMS
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        hostname: localhost 
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver 
+    url: jdbc:mysql://localhost/friendrequest_db
+    username: root
+    password: 
+  jpa:
+    hibernate.ddl-auto: update
+  
+server:
+  port: 2005
+  
+Service:
+  ALREADY_REQUESTED: Already Sent Request to the user
+  ALREADY_RECIEVED: Already Recieved Request from the user
+  REQUEST_NOT_FOUND: Request Not Found
+  
+API:
+  INVALID_TOKEN: Invalid token recieved
+  REQUEST_ADDED: Added request Successfully
+  ALREADY_REQUESTED: Already Sent Request to the user
+  ALREADY_RECIEVED: Already Recieved Request from the user
+  ACCEPTED_REQUEST: Request Accepted
+  NO_REQUEST: No requests exist
+  DECLINED_REQUEST: Declined Request
+  
+  

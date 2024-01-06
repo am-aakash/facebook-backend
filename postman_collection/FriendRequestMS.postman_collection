@@ -1,0 +1,708 @@
+{
+	"info": {
+		"_postman_id": "0e6eb03b-1e56-4ac3-9076-ccf44567606e",
+		"name": "Friend request MS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Send/Add Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2005/friend-request/add-request/44e16110-8b5e-4a56-832e-bbddd468531a"
+			},
+			"response": [
+				{
+					"name": "Already Requested",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/add-request/f4aca34c-99bd-4185-bd96-cc1a1ecbda85"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:43:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorMessage\": \"Already Sent Request to the user\",\n    \"errorCode\": 500\n}"
+				},
+				{
+					"name": "Already Recieved Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/add-request/b4bad63d-eb72-47dd-9158-56af48d6fde4"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:44:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorMessage\": \"Already Recieved Request from the user\",\n    \"errorCode\": 500\n}"
+				},
+				{
+					"name": "Send/Add Request Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "userId",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/add-request/f4aca34c-99bd-4185-bd96-cc1a1ecbda85"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:48:09 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Added request Successfully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Requests Recieved",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "a98fe283-8d57-40ec-8fde-c699a1a18abc",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "a98fe283-8d57-40ec-8fde-c699a1a18abc",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2005/friend-request/get-requests/pending"
+			},
+			"response": [
+				{
+					"name": "No requests",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "a6712404-f498-493a-b4d4-7aad248895c1",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/get-requests/pending"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:49:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorMessage\": \"Request Not Found\",\n    \"errorCode\": 500\n}"
+				},
+				{
+					"name": "Get Requests Recieved Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/get-requests/pending"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:57:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"requestId\": \"3da7ee18-fb5c-44ad-897f-c8021d5bf726\",\n        \"senderId\": \"b4bad63d-eb72-47dd-9158-56af48d6fde4\",\n        \"recieverId\": \"f4aca34c-99bd-4185-bd96-cc1a1ecbda85\",\n        \"status\": \"PENDING\",\n        \"timestampSent\": \"2023-10-31T05:42:05.000+00:00\",\n        \"timestampAccepted\": \"2023-10-31T05:42:05.000+00:00\"\n    }\n]"
+				},
+				{
+					"name": "Get Requests Accepted",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/get-requests/accepted"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:57:46 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"requestId\": \"0f9e648a-17a3-4d79-a8ed-3d04aed95c61\",\n        \"senderId\": \"a6712404-f498-493a-b4d4-7aad248895c1\",\n        \"recieverId\": \"f4aca34c-99bd-4185-bd96-cc1a1ecbda85\",\n        \"status\": \"ACCEPTED\",\n        \"timestampSent\": \"2023-10-31T05:48:09.000+00:00\",\n        \"timestampAccepted\": \"2023-10-31T05:56:35.000+00:00\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Requests sent",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "b4bad63d-eb72-47dd-9158-56af48d6fde4",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2005/friend-request/get-requests-sent/pending"
+			},
+			"response": [
+				{
+					"name": "Get Requests sent",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/get-requests-sent/pending"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 03 Nov 2023 04:25:25 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"requestId\": \"1dd09544-ae84-400c-b7d4-ee09a74bc606\",\n        \"senderId\": \"f4aca34c-99bd-4185-bd96-cc1a1ecbda85\",\n        \"recieverId\": \"a98fe283-8d57-40ec-8fde-c699a1a18abc\",\n        \"status\": \"PENDING\",\n        \"timestampSent\": \"2023-11-03T04:25:17.000+00:00\",\n        \"timestampAccepted\": \"2023-11-03T04:25:17.000+00:00\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Check if requested",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2005/friend-request/check-request/b4bad63d-eb72-47dd-9158-56af48d6fde4/951a1ecc-adbf-476d-9404-7a78b9c83c35\n"
+			},
+			"response": [
+				{
+					"name": "Already Recieved Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/check-request/f4aca34c-99bd-4185-bd96-cc1a1ecbda85/b4bad63d-eb72-47dd-9158-56af48d6fde4"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 06:03:12 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Already Recieved Request from the user\"\n}"
+				},
+				{
+					"name": "Already sent request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/check-request/b4bad63d-eb72-47dd-9158-56af48d6fde4/f4aca34c-99bd-4185-bd96-cc1a1ecbda85"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 06:03:41 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Already Sent Request to the user\"\n}"
+				},
+				{
+					"name": "No request exists",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/check-request/b4bad63deb72-47dd-9158-56af48d6fde4/f4aca34c-99bd-4185-bd96-cc1a1ecbda85"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 06:08:54 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"message\": \"No requests exist\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Change request status",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "userId",
+						"value": "a98fe283-8d57-40ec-8fde-c699a1a18abc",
+						"type": "default"
+					},
+					{
+						"key": "token",
+						"value": "a98fe283-8d57-40ec-8fde-c699a1a18abc",
+						"type": "default"
+					}
+				],
+				"url": "http://localhost:2005/friend-request/change-status/a6712404-f498-493a-b4d4-7aad248895c1/ACCEPTED"
+			},
+			"response": [
+				{
+					"name": "Accept Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/change-status/a6712404-f498-493a-b4d4-7aad248895c1/ACCEPTED"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:56:35 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Request Accepted\"\n}"
+				},
+				{
+					"name": "Declined Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/change-status/a6712404-f498-493a-b4d4-7aad248895c1/DECLINED"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:58:55 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Declined Request\"\n}"
+				},
+				{
+					"name": "Request not found",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "userId",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							},
+							{
+								"key": "token",
+								"value": "f4aca34c-99bd-4185-bd96-cc1a1ecbda85",
+								"type": "default"
+							}
+						],
+						"url": "http://localhost:2005/friend-request/change-status/a6712404-f498-493a-b4d4-7aad248895c1/DECLINED"
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 31 Oct 2023 05:59:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorMessage\": \"Request Not Found\",\n    \"errorCode\": 500\n}"
+				}
+			]
+		}
+	]
+}

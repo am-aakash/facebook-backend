@@ -1,0 +1,40 @@
+spring: 
+  application:
+    name: gateway
+  datasource: 
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/test
+    username: root
+    password:
+  cloud:
+    consul:
+      host: localhost
+    gateway:
+      discovery:
+        locator: 
+          enabled: true 
+      routes:
+        - id: UserMS
+          uri: lb://UserMS 
+          predicates:
+            - Path=/user**
+        - id: ProfileMS
+          uri: lb://ProfileMS
+          predicates:
+            - Path=/profile/**
+        - id: FriendRequestMS
+          uri: lb://FriendRequestMS
+          predicates:
+            - Path=/friend-request/**
+        - id: FriendMS
+          uri: lb://FriendMS
+          predicates:
+            - Path=/friend/**
+        - id: PostsMS
+          uri: lb://PostsMS
+          predicates:
+            - Path=/post/**
+         
+    
+server:
+  port: 4444

@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: ProfileMS
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        hostname: localhost
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/profile_db
+    username: root
+  jpa:
+    hibernate.ddl-auto: update
+  
+server:
+  port: 2004 
+
+Service:
+  USER_NOT_FOUND: User not found
+  
+API:
+  INVALID_TOKEN: Invalid token recieved
+  ADD_PROFILE_SUCCESS: Profile added with username
+  USERS_NOT_FOUND: No users found for the keyword
+  
